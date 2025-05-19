@@ -1,10 +1,3 @@
-Great — based on the code you've shared and the dataset description, here's a complete `README.md` file for your project. It includes:
-
-* Project overview
-* Dataset details
-* Model architecture
-* Hyperparameter tuning (Optuna)
-* Installation & usage instructions
 
 ---
 
@@ -85,55 +78,8 @@ The primary evaluation metric is:
 Model performance is monitored using training/validation accuracy and loss.
 
 ---
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/alzheimer-mri-classifier.git
-cd alzheimer-mri-classifier
-```
-
-2. Create a virtual environment (optional but recommended):
-
-```bash
-python -m venv venv
-source venv/bin/activate  # on Windows: venv\Scripts\activate
-```
-
-3. Install required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Example `requirements.txt`:
-
-```txt
-tensorflow
-optuna
-matplotlib
-numpy
-scikit-learn
-```
-
----
-
-### How to Run
-
-1. Place your dataset inside a directory (e.g., `AlzheimerDataset/`) with three subfolders for each class.
-2. Run the notebook or script step-by-step:
-
-   * Data balancing (undersampling & augmentation)
-   * Model definition & training
-   * Hyperparameter optimization
-   * Final training with best hyperparameters
-
----
-
 ### Results
 
-* The tuned ANN model achieved a validation accuracy of **94.09%** on the resampled dataset.
+* The tuned ANN model achieved a validation accuracy of **93.72%** on the resampled dataset.
 
 ---
